@@ -4,7 +4,7 @@
 import cv2
 
 # 노트북 웹캠 설정
-# 0은 내장 캠이고 외장캠을 사용할 경우에는ㄴ 1~n까지 차례로 채워짐
+# 0은 내장 캠이고 외장캠을 사용할 경우에는 1~n까지 차례로 채워짐
 cap = cv2.VideoCapture(0)
 
 # cap.set(propid, value)로 카메라의 propid(속성)와, value(값)을 설정 할 수 있다.
