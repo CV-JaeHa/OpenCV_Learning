@@ -14,7 +14,10 @@ matrix = cv2.getRotationMatrix2D((width/2, height/2), 90, 1)
 # 원본이미지에 아핀 맵 행렬을 적용하고 출력이미지 크기로 변형해서 출력이미지를 반
 dst = cv2.warpAffine(src, matrix, (width, height))
 
+# 이미지 출력
 cv2.imshow("src", src)
 cv2.imshow("dst", dst)
+# 키 입력 대기 함수
 cv2.waitKey()
+# 윈도우 창 제거 함수
 cv2.destroyAllWindows()
