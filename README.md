@@ -9,3 +9,7 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [5. 회전]()  
 [6. 확대&축소]()  
 [7. 크기 조절]()
+[8. 자르기]()
+
+# Reference
+코드 및 설명은 [윤대희님 블로그](https://076923.github.io/posts/#Python-OpenCV)를 참고 및 정리하여 제작하였습니다.
