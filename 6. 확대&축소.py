@@ -2,7 +2,7 @@
 import cv2
 
 # 이미지 경로 지정
-src = cv2.imread("이미지경로", cv2.IMREAD_COLOR)
+src = cv2.imread("image/6.jpg", cv2.IMREAD_COLOR)
 # 높이, 너비, 채널 값 지정
 height, width, channel = src.shape
 
