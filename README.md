@@ -12,7 +12,7 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [5. 회전](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/5.%20%ED%9A%8C%EC%A0%84.py)  
 [6. 확대&축소](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/6.%20%ED%99%95%EB%8C%80%26%EC%B6%95%EC%86%8C.py)  
 [7. 크기 조절](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/7.%20%ED%81%AC%EA%B8%B0%20%EC%A1%B0%EC%A0%88.py)  
-[8. 자르기](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/8.%20%EC%9E%90%EB%A5%B4%EA%B8%B0.py)
+[8. 자르기](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/8.%20%EC%9E%90%EB%A5%B4%EA%B8%B0.py)  
 [9. 색상 공간 변환](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/9.%20%EC%83%89%EC%83%81%20%EA%B3%B5%EA%B0%84%20%EB%B3%80%ED%99%98.py)  
 [10. 역상](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/10.%20%EC%97%AD%EC%83%81.py)  
 [11. 이진화](https://github.com/CV-JaeHa/OpenCV_Learning)  
