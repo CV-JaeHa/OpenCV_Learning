@@ -5,7 +5,7 @@ import cv2
 
 # 로컬 경로 이미지 파일 불러오기
 # cv2.imread(파일경로, 플래그)
-image = cv2.imread("이미지경로", cv2.IMREAD_ANYCOLOR)
+image = cv2.imread("image/2.jpg", cv2.IMREAD_ANYCOLOR)
 """ 플래그 목록
 cv2.IMREAD_UNCHANGED : 원본 사용
 cv2.IMREAD_GRAYSCALE : 1 채널, 그레이스케일 적용
