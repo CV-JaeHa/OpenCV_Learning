@@ -2,7 +2,7 @@
 import cv2
 
 # 로컬 파일에서 이미지 불러오기
-src = cv2.imread("이미지경로, cv2.IMREAD_COLOR")
+src = cv2.imread("image/4.jpg, cv2.IMREAD_COLOR")
 # cv2.flip(이미지, flipcode) 이미지 대칭하기
 # 대칭 축(flipcode)을 기준으로 출력한 이미지를 반환하는 코드
 dst = cv2.flip(src, 0)
