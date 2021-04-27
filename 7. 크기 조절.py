@@ -2,7 +2,7 @@
 import cv2
 
 # 이미지 경로 설정
-src = cv2.imread("이미지경로", cv2.IMREAD_COLOR)
+src = cv2.imread("image/7.jpg", cv2.IMREAD_COLOR)
 
 # 이미지 크기 조절 함수
 """cv2.resize(src, dstSize, fx, fy, interpolation) 
