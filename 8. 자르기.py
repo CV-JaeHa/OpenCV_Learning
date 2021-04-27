@@ -2,7 +2,7 @@
 import cv2
 
 # 이미지 경로 설정
-src = cv2.imread("이미지 경로", cv2.IMREAD_COLOR)
+src = cv2.imread("image/8.jpg", cv2.IMREAD_COLOR)
 """
 # 이미지를 src[높이, 너비]로 관심영역을 설정한 뒤 deep copy로 가져온다.
 # Deep Copy를 사용하지 않을 경우(shallow copy) 원본 이미지 또한 원본도 영향을 받게 된다.
