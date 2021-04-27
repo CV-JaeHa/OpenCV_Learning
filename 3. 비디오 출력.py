@@ -2,7 +2,7 @@
 import cv2
 
 # 동영상 파일 설정
-cap = cv2.VideoCapture("동영상경로")
+cap = cv2.VideoCapture("image/3.mp4")
 
 # 33초 동안 반복
 while cv2.waitKey(33) < 0:
