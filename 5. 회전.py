@@ -2,7 +2,7 @@
 import cv2
 
 # 로컬 파일을 읽어온다.
-src = cv2.imread("이미지경로", cv2.IMREAD_COLOR)
+src = cv2.imread("image/5.jpg", cv2.IMREAD_COLOR)
 
 # 해당 이미지의 높이, 너비, 채널의 값을 저장한다.
 height, width, channel = src.shape
