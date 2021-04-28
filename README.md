@@ -17,4 +17,4 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [9. 색상 공간 변환](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/9.%20%EC%83%89%EC%83%81%20%EA%B3%B5%EA%B0%84%20%EB%B3%80%ED%99%98.py)  
 [10. 역상](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/10.%20%EC%97%AD%EC%83%81.py)  
 [11. 이진화](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/11.%20%EC%9D%B4%EC%A7%84%ED%99%94.py)  
-[12. 흐림 효과]()
+[12. 흐림 효과](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/12.%20%ED%9D%90%EB%A6%BC%20%ED%9A%A8%EA%B3%BC.py)
