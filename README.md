@@ -2,7 +2,8 @@
 Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 
 # Reference
-코드 및 설명은 [윤대희님 블로그](https://076923.github.io/posts/#Python-OpenCV)를 참고 및 정리하여 제작하였습니다.
+코드 및 설명은 [윤대희님 블로그](https://076923.github.io/posts/#Python-OpenCV)
+를 참고 및 정리하여 제작하였습니다.
 
 # 목차
 [1. 카메라 출력](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/1.%20%EC%B9%B4%EB%A9%94%EB%9D%BC%20%EC%B6%9C%EB%A0%A5.py)  
@@ -15,4 +16,5 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [8. 자르기](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/8.%20%EC%9E%90%EB%A5%B4%EA%B8%B0.py)  
 [9. 색상 공간 변환](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/9.%20%EC%83%89%EC%83%81%20%EA%B3%B5%EA%B0%84%20%EB%B3%80%ED%99%98.py)  
 [10. 역상](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/10.%20%EC%97%AD%EC%83%81.py)  
-[11. 이진화](https://github.com/CV-JaeHa/OpenCV_Learning)  
+[11. 이진화](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/11.%20%EC%9D%B4%EC%A7%84%ED%99%94.py)  
+[12. 흐림 효과]()
