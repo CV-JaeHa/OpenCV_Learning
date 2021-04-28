@@ -16,4 +16,4 @@ cv2.imshow("dst", dst)
 # 키 입력 대기 함수
 cv2.waitKey()
 # 윈도우 창 제거 함수
-cv2.destroyAllWindows():
+cv2.destroyAllWindows()
