@@ -20,3 +20,6 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [12. 흐림 효과](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/12.%20%ED%9D%90%EB%A6%BC%20%ED%9A%A8%EA%B3%BC.py)  
 [13. 가장자리 검출](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/13.%20%EA%B0%80%EC%9E%A5%EC%9E%90%EB%A6%AC%20%EA%B2%80%EC%B6%9C.py)  
 [14. HSV](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/14.%20HSV.py)
+[15. 배열 병합](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/15.%20%EB%B0%B0%EC%97%B4%20%EB%B3%91%ED%95%A9.py)  
+[16. 채널 분리 & 병합](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/16.%20%EC%B1%84%EB%84%90%20%EB%B6%84%EB%A6%AC%20%26%20%EB%B3%91%ED%95%A9.py)  
+[17. 도형 그리기]()
