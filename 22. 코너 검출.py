@@ -19,7 +19,7 @@ cv2.goodFeaturesToTrack(입력 이미지, 코너 최댓값, 코너 품질, 최�
 해리스 코너 검출기 유/무 : 해리스 코너 검출 방법 사용 여부를 설정.
 해리스 코너 계수 : 해리스 알고리즘을 사용할 때 할당하며 해리스 대각합의 감도 계수를 의미함.
 """
-corners = cv2.goodFeaturesToTrack(gray, 100, 0,01, 5, blockSize=3, useHarrisDetector=True, k=0.03)
+corners = cv2.goodFeaturesToTrack(gray, 100, 0, 0, 5, blockSize=3, useHarrisDetector=True, k=0.03)
 
 # 코너 검출 함수를 통해 corners가 반환되며, 이 배열안에 코너들의 좌표가 저장되어 있다.
 # 반복문을 활용해 dst에 빨간색 원으로 지점을 표시함.
