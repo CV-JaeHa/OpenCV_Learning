@@ -29,3 +29,4 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [21. 다각형 근사](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/21.%20%EB%8B%A4%EA%B0%81%ED%98%95%20%EA%B7%BC%EC%82%AC.py)  
 [22. 코너 검출](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/22.%20%EC%BD%94%EB%84%88%20%EA%B2%80%EC%B6%9C.py)  
 [23. 블록 껍질](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/23.%20%EB%B8%94%EB%A1%9D%20%EA%BB%8D%EC%A7%88.py)  
+[24. 모멘트](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/24.%20%EB%AA%A8%EB%A9%98%ED%8A%B8.py)  
