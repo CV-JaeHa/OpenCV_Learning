@@ -2,7 +2,7 @@
 import cv2
 
 # 이미지 경로 설정
-src = cv2.imread("image/24.png")
+src = cv2.imread("image/23.png")
 # src Deep Copy
 dst = src.copy()
 
