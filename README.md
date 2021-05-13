@@ -31,3 +31,4 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [23. 블록 껍질](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/23.%20%EB%B8%94%EB%A1%9D%20%EA%BB%8D%EC%A7%88.py)
 [24. 모멘트](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/24.%20%EB%AA%A8%EB%A9%98%ED%8A%B8.py)  
 [25. 모폴리지 배열](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/25.%20%EB%AA%A8%ED%8F%B4%EB%A6%AC%EC%A7%80%20%EB%B3%80%ED%99%98.py)  
+[26. 모폴리지 연산](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/26.%20%EB%AA%A8%ED%8F%B4%EB%A6%AC%EC%A7%80%20%EC%97%B0%EC%82%B0.py)  
