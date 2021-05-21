@@ -36,3 +36,4 @@ Computer Vision의 기초가 되는 OpenCV 사용법을 담는다.
 [28. 원 검출](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/28.%20%EC%9B%90%20%EA%B2%80%EC%B6%9C.py)  
 [29. 이미지 연산(1)](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/29.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%97%B0%EC%82%B0(1).py)  
 [30. 이미지 연산(2)](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/30.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%97%B0%EC%82%B0(2).py)  
+[31. 비트 연산](https://github.com/CV-JaeHa/OpenCV_Learning/blob/main/31.%20%EB%B9%84%ED%8A%B8%20%EC%97%B0%EC%82%B0.py)  
