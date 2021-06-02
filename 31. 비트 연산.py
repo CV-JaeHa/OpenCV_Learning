@@ -5,7 +5,8 @@ import numpy as np
 import cv2
 
 # 이미지 경로 설정
-# 원본 이미지(src)와 그레이 스케일(gray), 이진화(binary)을 선언합니다.
+# 원본 이미지(src)와 그레이 스케일
+# p(gray), 이진화(binary)을 선언합니다.
 # 연산 이미지는 그레이스케일 이미지와 127 임곗값을 갖는 이진화 이미지를 사용함.
 src = cv2.imread("image/31.jpg")
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
