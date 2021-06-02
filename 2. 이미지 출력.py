@@ -21,7 +21,7 @@ cv2.IMREAD_REDUCED_COLOR_8 : 3 채널, 1/8 크기, BGR 이미지 사용
 """
 
 # 이미지 표시하기
-cv2.imshow("이름", image)
+cv2.imshow("image", image)
 # 키 입력 대기함수
 cv2.waitKey()
 # 모든 윈도우 창 제거 함수
