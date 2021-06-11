@@ -7,7 +7,8 @@ src = cv2.imread("image/6.jpg", cv2.IMREAD_COLOR)
 height, width, channel = src.shape
 
 # 이미지 2배 확대
-# cv2.pyrUp(src, dstSize, borderType) : 입력이미지(src), 출력 이미지 크기(dstSize), 테두리 외삽법(borederType)로 출력이미지(dst)을 생성합니다.
+# cv2.pyrUp(src, dstSize, borderType) : 입력이미지(src), 출력 이미지 크기(dstSize), 테두리 외삽법(borederType)로
+# 출력이미지(dst)을 생성합니다.
 dst = cv2.pyrUp(src, dstsize=(width * 2, height * 2), borderType=cv2.BORDER_DEFAULT)
 # 이미지 2배 축소
 dst2 = cv2.pyrDown(src)
