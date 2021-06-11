@@ -10,7 +10,8 @@ src = cv2.imread("image/11.jpg", cv2.IMREAD_COLOR)
 # 그레이로 설정
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 # 이진화 함수(cv2.threshold) : 그레일 스케일 이미지에 이진화를 적용 할 수 있다.
-# retval, dst = cv2.threshold(src, thresh, maxval, type) : 입력 이미지(src)를 임곗값 형식(type)에 따라 임곗값(thresh)과 최댓값(maxval)을 활용하여 설정 임곗값(retval)과 결과 이미지(dst)를 반환함.
+# retval, dst = cv2.threshold(src, thresh, maxval, type) : 입력 이미지(src)를 임곗값 형식(type)에 따라
+# 임곗값(thresh)과 최댓값(maxval)을 활용하여 설정 임곗값(retval)과 결과 이미지(dst)를 반환함.
 ret, dst = cv2.threshold(gray, 100, 255, cv2.THRESH_BINARY)
 
 # 이미지 출력 함수
