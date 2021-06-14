@@ -16,10 +16,18 @@ result = np.zeros((src.shape[0], 256), dtype=np.uint8)
 
 # 히스토그램 계산 함수(cv2.calcHist)
 # cv2.calcHist(연산 이미지, 특정 채널, 마스크, 히스토그램 크기, 히스토그램 범위) : 히스토그램 계산
-
+# 특정 채널 : 차원 수 설정
+# 마스크 : 특정 영역 연산 / 해당 영역은 없으므로, None 할당
+# 히스토그램 크기 : 빈도 수 설정 / 픽셀의 범위 - 0 ~ 255
+# 히스토그램 범위 : 범위 설정 / 범위의 범위 - 0 ~ 255
 hist = cv2.calcHist([gray], [0], None, [256], [0, 256])
+# 정규화 함수(cv2.normalize)
+# cv2.normalize(입력 배열, 결과 배열, alpha beta, 정규화 기준) : 정규화 함.
+# cv2.NORM_MINMAX : 정규화 기준을 최솟값 - alpha / 최대값 - beta
 cv2.normalize(hist, hist, 0, result.shape[0], cv2.NORM_MINMAX)
 
+# 결과를 시각적으로 확인하기 위해 hist 값을 result에 표시함.
+# gray와 result는 이미지 높이가 같으므로 병합 함수(np.hstack)로 이미지를 연결함.
 for x, y in enumerate(hist):
     cv2.line(result, (x, result.shape[0]), (x, result.shape[0] - y), 255)
 
