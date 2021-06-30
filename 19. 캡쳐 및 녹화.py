@@ -23,11 +23,11 @@ while True:
     # 4ms 마다 키보드 키의 값이 저장된다.
     key = cv2.waitKey(4)
 
-    # 3 = ESC, 2.5 = CNTL + Z, 2 = CTRL + X, 1 = CTRL + C를 의미한다.
-    # ESC : 프로그램 종류
-    # CTRL + Z : 현재 화면을 캡처 한다.
-    # CTRL + X : 녹화를 시작한다.
-    # CTRL + C : 녹화를 중지한다.
+    """ 3 = ESC, 2.5 = CNTL + Z, 2 = CTRL + X, 1 = CTRL + C를 의미한다.
+    ESC : 프로그램 종류
+    CTRL + Z : 현재 화면을 캡처 한다.
+    CTRL + X : 녹화를 시작한다.
+    CTRL + C : 녹화를 중지한다."""
     if key == 3:
         break
     elif key == 2.5:
@@ -46,7 +46,7 @@ while True:
         print("녹화 중..")
         video.write(frame)
 
-
+# 메모리 할당 해제
 cap.release()
 # 모든 윈도우 창 제거 함수
 cv2.destroyAllWindows()
